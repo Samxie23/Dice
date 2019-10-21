@@ -15,7 +15,7 @@ background(130,130,130);
     } 
   }
 textSize(20);
-text("sum of dice: " + sum, 250,450);
+text("sum of dice: " + sum, 175,450);
 }
 void mousePressed()
 {
@@ -30,6 +30,7 @@ class Die //models one single dice cube
     myX = x;
     myY = y;
     roll();
+    sum = sum + n;
   }
   void roll()
   {
