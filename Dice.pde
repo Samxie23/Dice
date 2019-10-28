@@ -7,7 +7,7 @@ void setup()
 void draw()
 {
 sum = 0;
-background(130,130,130);
+background(color((int)(Math.random()*255)+1, (int)(Math.random()*255)+1, (int)(Math.random()*255)+1));
   for(int y = 10; y < 400; y += 50){
     for(int x = 10; x < 490; x += 50){
     Die Bob = new Die(x,y);
